@@ -372,6 +372,24 @@ core-words     woorden
 # KEY     TRANSLATION
 core-zip  rits
 
+# KEY         TRANSLATION
+#enum-BigEndian          BigEndian
+enum-Broken             Gebroken
+enum-False              Onwaar
+enum-FileChanged        BestandVeranderd
+enum-FileRenamed        BestandHernaamd
+enum-Kept               Gehouden
+enum-Less               Minder
+#enum-LittleEndian       LittleEndian
+enum-More               Meer
+#enum-NativeEndian       NativeEndian
+enum-Planned            Beloofd
+enum-Same               Zelfde
+#enum-SeekFromBeginning  SeekFromBeginning
+#enum-SeekFromCurrent    SeekFromCurrent
+#enum-SeekFromEnd        SeekFromEnd
+enum-True               Waar
+
 # KEY             TRANSLATION
 infix-(cont)      (bevat)
 infix-(elem)      (element)
@@ -728,21 +746,13 @@ system-TWEAK        VERFIJN
 system-UPGRADE-RAT  VERBETER-RAT
 
 # KEY      TRANSLATION
-term-Broken   Gebroken
-term-False    Onjuist
-term-Kept     Gehouden
-term-Less     Minder
-term-More     Meer
 term-nano     nano
 term-now      nu
 term-pi       pi
-term-Planned  Beloofd
 term-rand     willekeurig
-term-Same     Zelfde
 term-self     zelf
 term-tau      tau
 term-time     tijd
-term-True     Waar
 
 # KEY                           TRANSLATION
 #trait-is-built                  built

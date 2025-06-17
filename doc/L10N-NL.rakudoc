@@ -7,7 +7,7 @@ L10N::NL - Dutch localization of Raku
 =head1 SYNOPSIS
 
 =begin output
-$ kaas -e 'zeg "Hallo wereld"'
+$ nedku -e 'zeg "Hallo wereld"'
 =end output
 
 =begin code :lang<raku>
@@ -21,7 +21,7 @@ zeg "Hallo wereld";
 
 The C<L10N::NL> distribution contains the logic to provide a Dutch
 localization of the Raku Programming Language.  It installs a
-C<kaas> executable that will automatically activate the Dutch
+C<nedku> executable that will automatically activate the Dutch
 localization.  And it allows one to use the Dutch localization
 in selected programs with a C<use L10N::NL> statement.
 

@@ -3,11 +3,11 @@
 # Executor for the Dutch localization of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-17T12:52:00+02:00 by ./update-localization
+#- Generated on 2025-06-17T21:22:27+02:00 by ./update-localization
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 %*ENV<RAKUDO_RAKUAST> = 1;
-%*ENV<RAKUDO_OPT>     = 'ML10N::NL';
+%*ENV<RAKUDO_OPT>     = '-ML10N::NL';
 
 #- PLEASE DON'T CHANGE ANYTHING ABOVE THIS LINE
 #- end of generated part of localization --------------------------------------

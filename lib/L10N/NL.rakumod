@@ -1,7 +1,7 @@
 # This file contains the Dutch Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-17T12:52:00+02:00 by ./update-localization
+#- Generated on 2025-06-17T21:22:27+02:00 by ./update-localization
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::NL {
@@ -23,6 +23,22 @@ role L10N::NL {
     token block-with { met}
     token block-without { zonder}
     token constraint-where { waarbij}
+    token enum-BigEndian { BigEndian}
+    token enum-Broken { Gebroken}
+    token enum-False { Onwaar}
+    token enum-FileChanged { BestandVeranderd}
+    token enum-FileRenamed { BestandHernaamd}
+    token enum-Kept { Gehouden}
+    token enum-Less { Minder}
+    token enum-LittleEndian { LittleEndian}
+    token enum-More { Meer}
+    token enum-NativeEndian { NativeEndian}
+    token enum-Planned { Beloofd}
+    token enum-Same { Zelfde}
+    token enum-SeekFromBeginning { SeekFromBeginning}
+    token enum-SeekFromCurrent { SeekFromCurrent}
+    token enum-SeekFromEnd { SeekFromEnd}
+    token enum-True { Waar}
     token infix-pcontp { "(bevat)"}
     token infix-pelemp { "(element)"}
     token infix-cff { "^ff"}
@@ -142,21 +158,13 @@ role L10N::NL {
     token stmt-prefix-start { start}
     token stmt-prefix-supply { lever}
     token stmt-prefix-try { probeer}
-    token term-Broken { Gebroken}
-    token term-False { Onjuist}
-    token term-Kept { Gehouden}
-    token term-Less { Minder}
-    token term-More { Meer}
     token term-nano { nano}
     token term-now { nu}
     token term-pi { pi}
-    token term-Planned { Beloofd}
     token term-rand { willekeurig}
-    token term-Same { Zelfde}
     token term-self { zelf}
     token term-tau { tau}
     token term-time { tijd}
-    token term-True { Waar}
     token traitmod-does { doet}
     token traitmod-handles { begrijpt}
     token traitmod-hides { verbergt}
