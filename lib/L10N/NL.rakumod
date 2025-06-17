@@ -1,7 +1,7 @@
 # This file contains the Dutch Slang of the Raku Programming Language
 
 #- start of generated part of localization ------------------------------------
-#- Generated on 2025-06-16T21:08:59+02:00 by ./update-localization
+#- Generated on 2025-06-17T12:52:00+02:00 by ./update-localization
 #- PLEASE DON'T CHANGE ANYTHING BELOW THIS LINE
 
 role L10N::NL {

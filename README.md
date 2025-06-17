@@ -1,4 +1,4 @@
-[![Actions Status](https://github.com/Raku/L10N/actions/workflows/linux.yml/badge.svg)](https://github.com/Raku/L10N/actions) [![Actions Status](https://github.com/Raku/L10N/actions/workflows/macos.yml/badge.svg)](https://github.com/Raku/L10N/actions) [![Actions Status](https://github.com/Raku/L10N/actions/workflows/windows.yml/badge.svg)](https://github.com/Raku/L10N/actions)
+[![Actions Status](https://github.com/Raku-L10N/NL/actions/workflows/linux.yml/badge.svg)](https://github.com/Raku-L10N/NL/actions) [![Actions Status](https://github.com/Raku-L10N/NL/actions/workflows/macos.yml/badge.svg)](https://github.com/Raku-L10N/NL/actions) [![Actions Status](https://github.com/Raku-L10N/NL/actions/workflows/windows.yml/badge.svg)](https://github.com/Raku-L10N/NL/actions)
 
 NAME
 ====

@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
-use RakuAST::L10N;
+use RakuAST::L10N;                # provided by core
 update-module("NL");              # update the source
 "use lib '.'; use L10N::NL".EVAL; # precomp the module
 
