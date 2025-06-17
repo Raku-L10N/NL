@@ -1,6 +1,8 @@
 Revision history for L10N::NL
 
 {{$NEXT}}
+
+0.0.3  2025-06-17T21:26:28+02:00
     - Rename "kaas" to more neutral "nedku"
     - Update proper support for core enum localization
 
