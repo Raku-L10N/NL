@@ -1,0 +1,4 @@
+.precomp/
+/L10N-NL-*
+/releases/
+*.rakucov
