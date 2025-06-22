@@ -1,4 +1,4 @@
-# This file contains that Dutch translation of features of the
+# This file contains the Dutch localization of features of the
 # Raku Programming Language.
 #
 # CONTRIBUTORS: Elizabeth Mattijsen
@@ -77,7 +77,7 @@ adverb-rx-to          tot
 adverb-rx-x           keer
 
 # KEY           TRANSLATION
-block-default   ingebreke
+block-default   standaard
 block-else      anders
 block-elsif     andersals
 block-for       vooralle
@@ -177,7 +177,7 @@ core-flat          plat
 core-flip          draaiom
 core-floor         vloer
 core-flunk         gezakt
-#core-fmt           fmt
+core-fmt           formatteer
 #core-full-barrier  full-barrier
 
 # KEY      TRANSLATION
@@ -187,7 +187,7 @@ core-gist  kern
 core-grep  filter
 
 # KEY      TRANSLATION
-core-hash  moes
+core-hash  hash
 core-head  hoofd
 
 # KEY           TRANSLATION
@@ -199,7 +199,7 @@ core-is         is
 core-is-approx  is-ongeveer
 core-is-deeply  is-helemaal
 core-is-prime   is-priem
-core-isa-ok     iseen-ok
+core-isa-ok     is-een-ok
 core-isnt       isniet
 core-item       item
 
@@ -220,7 +220,7 @@ core-lines     regels
 core-link      koppeling
 core-list      lijst
 core-lives-ok  leeft-ok
-core-lsb       minst-belangrijke-bit
+core-lsb       minst-significante-bit
 
 # KEY        TRANSLATION
 core-make    maak
@@ -230,9 +230,9 @@ core-max     max
 core-min     min
 core-minmax  minmax
 core-mix     mix
-#core-mkdir   mkdir
+core-mkdir   maak-map
 core-move    verplaats
-core-msb     belangrijkste-bit
+core-msb     meest-significante-bit
 
 # KEY            TRANSLATION
 core-new         nieuw
@@ -247,8 +247,8 @@ core-note        merk-op
 
 # KEY      TRANSLATION
 core-ok    ok
-core-one   een
-#core-open  open
+core-one   één
+core-open  open
 core-ord   als-getal
 core-ords  als-getallen
 
@@ -262,8 +262,8 @@ core-pick          kies
 core-plan          verwacht
 core-pop           floep
 core-prepend       voeg-voor
-core-print         druk
-core-printf        drukf
+core-print         druk-af
+core-printf        druk-af-formaat
 core-proceed       ga-door
 core-prompt        vraag
 core-push          stapel-op
@@ -275,14 +275,14 @@ core-redo        nog-eens
 core-reduce      reduceer
 core-repeated    herhaaldelijk
 #core-repl        repl
-core-return      retour
-core-return-rw   retour-rw
+core-return      geef-terug
+core-return-rw   geef-terug-rw
 core-reverse     keer-om
-core-rindex      om-index
-#core-rmdir       rmdir
+core-rindex      index-vanaf-einde
+core-rmdir       verwijder-map
 core-roll        gooi
 core-roots       wortels
-core-rotate      roteer
+core-rotate      draai
 core-round       rond-af
 core-roundrobin  ieder-een
 core-run         voer-uit
@@ -310,9 +310,9 @@ core-so           dus
 core-sort         sorteer
 core-splice       splits-lijst
 core-split        splits-letters
-core-sprintf      sdrukf
+core-sprintf      formatteer
 core-spurt        spuit
-core-sqrt         wortel
+core-sqrt         vierkantswortel
 core-squish       plet
 core-srand        zo-willekeurig
 core-starts-with  begint-met
@@ -333,7 +333,7 @@ core-take           neem
 core-take-rw        neem-rw
 core-tc             titel-kast
 core-tclc           titel-onder-kast
-core-temp           ad-interim
+core-temp           tijdelijk
 core-throws-like    knalt-als
 core-todo           tedoen
 core-trans          vertaal
@@ -353,7 +353,7 @@ core-uc        boven-kast
 core-unique    uniek
 #core-unival    unival
 #core-univals   univals
-core-unlike    lijkt-niet-als
+core-unlike    lijkt-niet-op
 core-unlink    ontkoppel
 #core-unpolar   unpolar
 core-unshift   onderin
@@ -377,7 +377,7 @@ core-zip  rits
 enum-Broken             Gebroken
 enum-False              Onwaar
 enum-FileChanged        BestandVeranderd
-enum-FileRenamed        BestandHernaamd
+enum-FileRenamed        BestandHernoemd
 enum-Kept               Gehouden
 enum-Less               Minder
 #enum-LittleEndian       LittleEndian
@@ -571,7 +571,7 @@ named-overlap     overlap
 # KEY          TRANSLATION
 named-p        p
 named-partial  gedeeltelijk
-named-parts    delen
+named-parts    gedeelten
 named-port     poort
 named-pos      pos
 named-primary  eerste
@@ -589,9 +589,9 @@ named-replacement  vervanging
 #named-rx           rx
 
 # KEY              TRANSLATION
-named-samecase     zelfdekast
-named-samemark     zelfdeaccent
-named-samespace    zelfdespatie
+named-samecase     zelfde-kast
+named-samemark     zelfde-accent
+named-samespace    zelfde-spatie
 #named-scheduler    scheduler
 named-second       seconde
 named-secondary    tweede
@@ -630,7 +630,7 @@ named-value    waarde
 
 # KEY                    TRANSLATION
 #named-w                  w
-named-where              waar
+named-where              waarbij
 #named-win-verbatim-args  win-verbatim-args
 
 # KEY    TRANSLATION
@@ -682,7 +682,7 @@ pragma-precompilation      compilatie-vooraf
 pragma-soft                zacht
 pragma-strict              strikt
 pragma-trace               verloop
-pragma-variables           variablen
+pragma-variables           variabelen
 pragma-worries             zorgen
 
 # KEY       TRANSLATION
@@ -740,7 +740,7 @@ system-ACCEPTS      ACCEPTEERT
 system-BUILD        BOUW
 system-CALL-ME      AANROEP
 system-COERCE       VERANDER-IN
-system-FALLBACK     WIJKUIT
+system-FALLBACK     WIJK-UIT
 system-MAIN         HOOFD
 system-TWEAK        VERFIJN
 system-UPGRADE-RAT  VERBETER-RAT
@@ -757,7 +757,7 @@ term-time     tijd
 # KEY                           TRANSLATION
 #trait-is-built                  built
 trait-is-copy                   kopie
-trait-is-default                verstek
+trait-is-default                standaard
 trait-is-DEPRECATED             VEROUDERD
 trait-is-equiv                  equivalent
 trait-is-export                 export
@@ -779,7 +779,7 @@ traitmod-hides    verbergt
 traitmod-is       is
 traitmod-of       netals
 traitmod-returns  geeft-terug
-traitmod-trusts   vertrouwd
+traitmod-trusts   vertrouwt
 
 # KEY         TRANSLATION
 #typer-enum    enum
@@ -787,7 +787,7 @@ traitmod-trusts   vertrouwd
 
 # KEY        TRANSLATION
 use-import   importeer
-use-need     behoeft
+use-need     heeft-nodig
 use-no       geen
 use-require  vereist
 use-use      gebruik

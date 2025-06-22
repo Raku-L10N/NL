@@ -8,7 +8,8 @@ L10N::NL - Dutch localization of Raku
 SYNOPSIS
 ========
 
-    $ nedku -e 'zeg "Hallo wereld"'
+    $ nedku -e 'zeg "Hallo Wereld"'
+    Hallo Wereld
 
 ```raku
 use L10N::NL;

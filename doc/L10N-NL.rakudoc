@@ -7,7 +7,8 @@ L10N::NL - Dutch localization of Raku
 =head1 SYNOPSIS
 
 =begin output
-$ nedku -e 'zeg "Hallo wereld"'
+$ nedku -e 'zeg "Hallo Wereld"'
+Hallo Wereld
 =end output
 
 =begin code :lang<raku>
