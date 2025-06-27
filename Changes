@@ -2,6 +2,10 @@ Revision history for L10N::NL
 
 {{$NEXT}}
 
+0.0.5  2025-06-27T18:25:24+02:00
+    - Re-introduced "kaas" as executor
+    - Updated internals to new L10N file layout
+
 0.0.4  2025-06-22T13:35:25+02:00
     - Various fixes / improvements in translations, luna++
 
