@@ -8,7 +8,7 @@ L10N::NL - Dutch localization of Raku
 SYNOPSIS
 ========
 
-    $ nedku -e 'zeg "Hallo Wereld"'
+    $ dutku -e 'zeg "Hallo Wereld"'
     Hallo Wereld
 
 ```raku
@@ -19,7 +19,7 @@ zeg "Hallo wereld";
 DESCRIPTION
 ===========
 
-The `L10N::NL` distribution contains the logic to provide a Dutch localization of the Raku Programming Language. It installs a `nedku` executable that will automatically activate the Dutch localization. And it allows one to use the Dutch localization in selected programs with a `use L10N::NL` statement.
+The `L10N::NL` distribution contains the logic to provide a Dutch localization of the Raku Programming Language. It installs a `dutku` executable that will automatically activate the Dutch localization. And it allows one to use the Dutch localization in selected programs with a `use L10N::NL` statement.
 
 AUTHORS
 =======

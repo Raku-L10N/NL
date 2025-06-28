@@ -2,6 +2,10 @@ Revision history for L10N::NL
 
 {{$NEXT}}
 
+0.0.6  2025-06-28T20:48:40+02:00
+    - Change executor "nedku" to "dutku" to make it inline
+      with the automatic distro creation logic
+
 0.0.5  2025-06-27T18:25:24+02:00
     - Re-introduced "kaas" as executor
     - Updated internals to new L10N file layout
