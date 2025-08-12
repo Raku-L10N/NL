@@ -195,6 +195,7 @@ core-indent     indenteer
 core-index      index
 core-indices    indices
 core-indir      indir
+core-invert     inverteer
 core-is         is
 core-is-approx  is-ongeveer
 core-is-deeply  is-helemaal
