@@ -10,14 +10,19 @@
   "description": "Dutch localization of Raku",
   "license": "Artistic-2.0",
   "name": "L10N::NL",
-  "perl": "6.d",
   "provides": {
     "L10N::NL": "lib/L10N/NL.rakumod",
     "RakuAST::Deparse::L10N::NL": "lib/RakuAST/Deparse/L10N/NL.rakumod"
   },
+  "raku": "6.d",
   "resources": [
   ],
   "source-url": "https://github.com/Raku-L10N/NL.git",
+  "support": {
+    "bugtracker": "https://github.com/Raku-L10N/NL/issues",
+    "email": "l10n@raku.org",
+    "source": "https://github.com/Raku-L10N/NL.git"
+  },
   "tags": [
     "LOCALIZATION",
     "DUTCH",

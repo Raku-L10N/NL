@@ -1,6 +1,10 @@
 Revision history for L10N::NL
 
 {{$NEXT}}
+    - Update to latest translation key list
+    - Add many more translations
+    - Modernize META
+    - Update copyright year
 
 0.0.6  2025-06-28T20:48:40+02:00
     - Change executor "nedku" to "dutku" to make it inline

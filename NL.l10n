@@ -24,8 +24,8 @@ adverb-pc-v       w
 adverb-q-double      dubbel
 adverb-q-exec        voer-uit
 #adverb-q-f           f
-adverb-q-function    functies
 #adverb-q-format      format
+adverb-q-function    functies
 #adverb-q-h           h
 #adverb-q-hash        hash
 adverb-q-heredoc     tot-teken
@@ -38,7 +38,7 @@ adverb-q-heredoc     tot-teken
 adverb-q-single      enkel
 adverb-q-to          tot
 #adverb-q-v           v
-adverb-q-val         allomorph
+adverb-q-val         allomorf
 adverb-q-w           w
 adverb-q-words       woorden
 #adverb-q-ww          ww
@@ -99,7 +99,11 @@ constraint-where  waarbij
 
 # KEY                  TRANSLATION
 core-abs               abs
+core-accessed          bekeken
+core-actions           acties
+core-add               voeg-toe
 core-all               alle
+core-antipair          antipaar
 core-antipairs         antiparen
 core-any               elke
 core-append            voeg-achteraan
@@ -116,28 +120,38 @@ core-append            voeg-achteraan
 #core-atomic-sub-fetch  atomic-sub-fetch
 core-await             wacht-op
 
-# KEY          TRANSLATION
-core-bag       tas
-core-bail-out  geef-op
-core-bless     zegen
+# KEY           TRANSLATION
+#core-backtrace  backtrace
+core-bag        tas
+core-bail-out   geef-op
+core-base       basis
+#core-batch      batch
+core-bless      zegen
 
 # KEY              TRANSLATION
+#core-cache         cache
 #core-callframe     callframe
 #core-callsame      callsame
 #core-callwith      callwith
 core-can-ok        kan-ok
+#core-caps          caps
 #core-cas           cas
 core-categorize    categoriseer
 core-ceiling       plafond
+#core-changed       changed
 core-chars         letters
 #core-chdir         chdir
+#core-child         child
 #core-chmod         chmod
 core-chomp         kap-regeleinde
 core-chop          kap
 #core-chown         chown
 core-chr           als-letter
 core-chrs          als-letters
+#core-chunks        chunks
 core-classify      classificeer
+#core-cleanup       cleanup
+#core-clone         clone
 core-close         sluit
 core-cmp-ok        cmp-ok
 core-codes         codes
@@ -147,26 +161,42 @@ core-combinations  combinaties
 core-contains      bevat
 core-cross         kruis
 
-# KEY         TRANSLATION
-core-decode   decodeer
-core-deepmap  diep-arrangeer
-core-defined  gedefinieerd
-core-die      sterf
-#core-dir      dir
-core-done     klaar
-core-duckmap  duik-arrangeer
+# KEY                  TRANSLATION
+core-day-of-week       dag-van-week
+core-day-of-year       dag-van-jaar
+#core-daycount          daycount
+core-days-in-month     dagen-in-maand
+core-days-in-year      dagen-in-jaar
+core-dd-mm-yyyy        dd-mm-jjjj
+core-decode            decodeer
+core-deepmap           diep-arrangeer
+core-defined           gedefinieerd
+#core-dev               dev
+#core-devtype           devtype
+core-diag              diag
+core-die               sterf
+core-dies-ok           sterft-ok
+#core-dir               dir
+#core-dir-with-entries  dir-with-entries
+core-does-ok           doet-ok
+core-done              klaar
+core-duckmap           duik-arrangeer
 
 # KEY               TRANSLATION
+core-eager          gretig
+core-earlier        eerder
 core-elems          elementen
 core-emit           zend
 core-encode         codeer
 core-end            einde
 core-ends-with      eindigt-met
+#core-enums          enums
 core-eval-dies-ok   eval-sterft-ok
 core-eval-lives-ok  eval-leeft-ok
 core-exit           verlaat
 core-exp            exp
 core-expmod         expmod
+core-extension      extensie
 
 # KEY              TRANSLATION
 core-fail          faal
@@ -174,35 +204,45 @@ core-fails-like    faalt-als
 core-fc            vouw-kast
 core-first         eerste
 core-flat          plat
+#core-flatmap       flatmap
 core-flip          draaiom
 core-floor         vloer
 core-flunk         gezakt
 core-fmt           formatteer
+core-from          van
 #core-full-barrier  full-barrier
 
-# KEY      TRANSLATION
-core-get   pak
-core-getc  pakc
-core-gist  kern
-core-grep  filter
+# KEY           TRANSLATION
+core-get        pak
+core-getc       pakc
+core-gist       kern
+core-grab       grijp
+core-grabpairs  grijp-paren
+core-grep       filter
+#core-group      group
 
 # KEY      TRANSLATION
 core-hash  hash
 core-head  hoofd
 
-# KEY           TRANSLATION
-core-indent     indenteer
-core-index      index
-core-indices    indices
-core-indir      indir
-core-invert     inverteer
-core-is         is
-core-is-approx  is-ongeveer
-core-is-deeply  is-helemaal
-core-is-prime   is-priem
-core-isa-ok     is-een-ok
-core-isnt       isniet
-core-item       item
+# KEY             TRANSLATION
+core-im           im
+core-indent       indenteer
+core-index        index
+core-indices      indices
+core-indir        indir
+#core-inode        inode
+core-invert       inverteer
+#core-IO           IO
+core-is           is
+#core-is-absolute  is-approx
+core-is-approx    is-ongeveer
+core-is-deeply    is-helemaal
+core-is-prime     is-priem
+#core-is-relative  is-relative
+core-isa-ok       is-een-ok
+core-isnt         isniet
+core-item         item
 
 # KEY      TRANSLATION
 core-join  plak
@@ -215,6 +255,7 @@ core-kv    sw
 # KEY          TRANSLATION
 core-last      laatste
 core-lastcall  laatste-aanroep
+core-later     later
 core-lc        onder-kast
 core-like      lijkt-op
 core-lines     regels
@@ -223,17 +264,20 @@ core-list      lijst
 core-lives-ok  leeft-ok
 core-lsb       minst-significante-bit
 
-# KEY        TRANSLATION
-core-make    maak
-core-map     arrangeer
-core-match   match
-core-max     max
-core-min     min
-core-minmax  minmax
-core-mix     mix
-core-mkdir   maak-map
-core-move    verplaats
-core-msb     meest-significante-bit
+# KEY            TRANSLATION
+core-made        gemaakt
+core-make        maak
+core-map         arrangeer
+core-match       match
+core-max         max
+#core-message     message
+core-min         min
+core-minmax      minmax
+core-mix         mix
+core-mkdir       maak-map
+core-mm-dd-yyyy  mm-dd-jjjj
+core-move        verplaats
+core-msb         meest-significante-bit
 
 # KEY            TRANSLATION
 core-new         nieuw
@@ -252,30 +296,45 @@ core-one   één
 core-open  open
 core-ord   als-getal
 core-ords  als-getallen
+#core-orig  orig
 
 # KEY              TRANSLATION
 core-pair          paar
 core-pairs         paren
+core-parent        ouder
+core-parse         ontleed
 core-parse-base    ontleed-nummer
 core-pass          geslaagd
+core-path          pad
 core-permutations  permutaties
 core-pick          kies
 core-plan          verwacht
 core-pop           floep
+core-pos           pos
+#core-postmatch     postmatch
+#core-pred          pred
+#core-prematch      prematch
 core-prepend       voeg-voor
 core-print         druk-af
 core-printf        druk-af-formaat
 core-proceed       ga-door
+core-produce       produceer
 core-prompt        vraag
 core-push          stapel-op
 core-put           zeg-het
 
 # KEY            TRANSLATION
+#core-raku        raku
 core-rand        willekeurig
+core-re          re
 core-redo        nog-eens
 core-reduce      reduceer
+core-relative    relatief
 core-repeated    herhaaldelijk
 #core-repl        repl
+#core-resolve     resolve
+core-resume      hervat
+core-rethrow     knal-opnieuw
 core-return      geef-terug
 core-return-rw   geef-terug-rw
 core-reverse     keer-om
@@ -284,6 +343,7 @@ core-rmdir       verwijder-map
 core-roll        gooi
 core-roots       wortels
 core-rotate      draai
+core-rotor       rotor
 core-round       rond-af
 core-roundrobin  ieder-een
 core-run         voer-uit
@@ -298,6 +358,7 @@ core-set          verzameling
 core-shift        onderuit
 core-sign         teken
 core-signal       signaal
+core-sink         zink
 core-skip         sla-over
 core-skip-rest    sla-rest-over
 core-sleep        slaap
@@ -319,11 +380,13 @@ core-srand        zo-willekeurig
 core-starts-with  begint-met
 core-subbuf       subbuf
 core-subbuf-rw    subbuf-rw
+core-subparse     ontleed-deel
 core-subst        substitueer
 core-substr       substr
 core-substr-eq    substr-gelijk
 core-substr-rw    substr-rw
 core-subtest      subtest
+#core-succ         succ
 core-succeed      slaag
 core-sum          sommeer
 core-symlink      symbolische-koppeling
@@ -332,10 +395,14 @@ core-symlink      symbolische-koppeling
 core-tail           staart
 core-take           neem
 core-take-rw        neem-rw
+core-target         doel
 core-tc             titel-kast
 core-tclc           titel-onder-kast
 core-temp           tijdelijk
+core-throw          knal
 core-throws-like    knalt-als
+core-to             tot
+core-today          vandaag
 core-todo           tedoen
 core-trans          vertaal
 core-trim           trim
@@ -359,21 +426,30 @@ core-unlink    ontkoppel
 #core-unpolar   unpolar
 core-unshift   onderin
 core-use-ok    gebruik-ok
+#core-user      user
 
 # KEY        TRANSLATION
 core-val     als-nummers
 core-value   waarde
 core-values  waardes
 
-# KEY          TRANSLATION
-core-warn      waarschuw
-core-wordcase  woord-kast
-core-words     woorden
+# KEY                  TRANSLATION
+core-warn              waarschuw
+core-watch             bespied
+core-week              week
+core-week-number       week-nummer
+core-week-year         week-jaar
+core-weekday-of-month  weekdag-van-maand
+core-wordcase          woord-kast
+core-words             woorden
+
+# KEY            TRANSLATION
+core-yyyy-mm-dd  jjjj-mm-dd
 
 # KEY     TRANSLATION
 core-zip  rits
 
-# KEY         TRANSLATION
+# KEY                   TRANSLATION
 #enum-BigEndian          BigEndian
 enum-Broken             Gebroken
 enum-False              Onwaar
@@ -408,6 +484,7 @@ infix-cmp         vergelijk
 infix-div         deel
 infix-does        doet
 infix-eq          ge
+#infix-eqv         eqv
 #infix-ff          ff
 #infix-ff^         ff^
 #infix-fff         fff
@@ -431,6 +508,7 @@ infix-orelse      ofanders
 #infix-unicmp      unicmp
 infix-x           x
 infix-X           X
+#infix-xor         xor
 infix-xx          xx
 infix-Z           R
 
@@ -472,6 +550,7 @@ named-append    voegtoe
 #named-bin        bin
 #named-bleed      bleed
 #named-broadcast  broadcast
+#named-by         by
 
 # KEY             TRANSLATION
 named-catch       vangfout
@@ -485,16 +564,18 @@ named-continue    continueer
 named-control     controle
 named-count       aantal
 named-create      maak-aan
+#named-created     created
 named-createonly  maak-nieuw-aan
 #named-cwd         cwd
 #named-CWD         CWD
 
-# KEY          TRANSLATION
-named-date     datum
-named-day      dag
-named-degree   vrijheidsgraad
-named-delete   verwijder
-#named-dirname  dirname
+# KEY           TRANSLATION
+#named-datagram  datagram
+named-date      datum
+named-day       dag
+named-degree    vrijheidsgraad
+named-delete    verwijder
+#named-dirname   dirname
 
 # KEY             TRANSLATION
 named-elems       elementen
@@ -545,13 +626,14 @@ named-listen     luister
 #named-localhost  localhost
 #named-localport  localport
 
-# KEY         TRANSLATION
-#named-match   match
-#named-merge   merge
-named-minute  minuut
-named-mm      za
-#named-mode    mode
-named-month   maand
+# KEY           TRANSLATION
+#named-match     match
+#named-merge     merge
+named-minute    minuut
+named-mm        za
+#named-mode      mode
+#named-modified  mode
+named-month     maand
 
 # KEY               TRANSLATION
 named-name          naam
@@ -747,13 +829,13 @@ system-TWEAK        VERFIJN
 system-UPGRADE-RAT  VERBETER-RAT
 
 # KEY      TRANSLATION
-term-nano     nano
-term-now      nu
-term-pi       pi
-term-rand     willekeurig
-term-self     zelf
-term-tau      tau
-term-time     tijd
+term-nano  nano
+term-now   nu
+term-pi    pi
+term-rand  willekeurig
+term-self  zelf
+term-tau   tau
+term-time  tijd
 
 # KEY                           TRANSLATION
 #trait-is-built                  built
@@ -769,6 +851,7 @@ trait-is-looser                 losser
 #trait-is-nodal                  nodal
 trait-is-pure                   puur
 trait-is-raw                    rauw
+#trait-is-required               required
 trait-is-rw                     lezen-schrijven
 trait-is-test-assertion         test-assertie
 trait-is-tighter                strakker
